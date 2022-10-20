@@ -23,6 +23,8 @@ int (*check_format(const char *format))(va_list)
 		{"X", print_X},
 		{"p", print_p},
 		{"r", print_r},
+		{"R", print_R},
+		{"S", print_S},
 		{NULL, NULL}
 	};
 	for (; p[i].t != NULL; i++)
